@@ -1,6 +1,11 @@
 import about_img from './about_img-BAJyTXw9.png'
 import contact_img from './contact_img-CyOum2vk.png'
 import hero from './hero_img-DOCOb6wn.png'
+import logo from './logo.png'
+import cartIcon from './cart icon.png'
+import searchIcon from './search icon.png'
+import loginIcon from './login icon.png'
+import manu_icon from './manu_icon.png'
 
 
 import p_img1 from './p_img1.png'
@@ -31,22 +36,22 @@ import p_img23 from './p_img23.png'
 import p_img24 from './p_img24.png'
 import p_img25 from './p_img25.png'
 import p_img26 from './p_img26.png'
-import p_img27 from './p_img27.png'
+// import p_img27 from './p_img27.png'
 import p_img28 from './p_img28.png'
 import p_img29 from './p_img29.png'
-import p_img30 from './p_img30.png'
+// import p_img30 from './p_img30.png'
 import p_img31 from './p_img31.png'
-import p_img32 from './p_img32.png'
-import p_img33 from './p_img33.png'
+// import p_img32 from './p_img32.png'
+// import p_img33 from './p_img33.png'
 import p_img34 from './p_img34.png'
 import p_img35 from './p_img35.png'
 import p_img36 from './p_img36.png'
-import p_img37 from './p_img37.png'
-import p_img38 from './p_img38.png'
+// import p_img37 from './p_img37.png'
+// import p_img38 from './p_img38.png'
 import p_img39 from './p_img39.png'
 import p_img40 from './p_img40.png'
 import p_img41 from './p_img41.png'
-import p_img42 from './p_img42.png'
+// import p_img42 from './p_img42.png'
 import p_img43 from './p_img43.png'
 import p_img44 from './p_img44.png'
 import p_img45 from './p_img45.png'
@@ -62,6 +67,11 @@ import p_img52 from './p_img52.png'
 
 
 export const assets = {
+    logo,
+    cartIcon,
+    loginIcon,
+    searchIcon,
+    manu_icon,
     about_img,
     contact_img,
     hero,
@@ -93,22 +103,15 @@ export const assets = {
     p_img24,
     p_img25,
     p_img26,
-    p_img27,
     p_img28,
     p_img29,
-    p_img30,
     p_img31,
-    p_img32,
-    p_img33,
     p_img34,
     p_img35,
     p_img36,
-    p_img37,
-    p_img38,
     p_img39,
     p_img40,
     p_img41,
-    p_img42,
     p_img43,
     p_img44,
     p_img45,
