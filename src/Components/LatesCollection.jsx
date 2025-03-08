@@ -1,10 +1,15 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { ShopContext } from "../Context/ShopContext";
 import Title from "./Title";
+import ProductItem from "./ProductItem";
 
 function LatesCollection() {
   const { product } = useContext(ShopContext);
-  console.log(product);
+  const [latestProducts, setLatestProduct] = useState([]);
+
+  useEffect(() => {
+    setLatestProduct(product.slice(0, 10));
+  }, []);
 
   return (
     <div className="my-10">
@@ -14,6 +19,18 @@ function LatesCollection() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
           excepturi dolor
         </p>
+      </div>
+      {/* Rendering Products */}
+      <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-4 gap-y-6">
+        {latestProducts.map((item, index) => (
+          <ProductItem
+            key={index}
+            id={item._id}
+            image={item.image}
+            name={item.name}
+            price={item.price}
+          />
+        ))}
       </div>
     </div>
   );
