@@ -171,7 +171,7 @@ export const product = [
         "subCategory": "Topwear",
         "sizes": ["S", "M", "L", "XL", "XXL"],
         "date": 171663434548,
-        "bestseller": true
+        bestseller: true
     },
     {
         "_id": "p005",
@@ -183,7 +183,7 @@ export const product = [
         "subCategory": "Winterwear",
         "sizes": ["M", "L", "XL", "XXL"],
         "date": 171663434548,
-        "bestseller": false
+        bestseller: false
     },
     {
         "_id": "p006",
@@ -195,7 +195,7 @@ export const product = [
         "subCategory": "Bottomwear",
         "sizes": ["S", "M", "L", "XL"],
         "date": 171663434548,
-        "bestseller": true
+        bestseller: true
     },
     {
         "_id": "p007",
@@ -207,7 +207,7 @@ export const product = [
         "subCategory": "Winterwear",
         "sizes": ["S", "M", "L"],
         "date": 171663434548,
-        "bestseller": false
+        bestseller: false
     },
     {
         "_id": "p008",
@@ -218,8 +218,8 @@ export const product = [
         "category": "Man",
         "subCategory": "Winterwear",
         "sizes": ["M", "L", "XL", "XXL"],
-        "date": 171663434548,
-        "bestseller": true
+        date: 171663434548,
+        bestseller: true
     },
     {
         "_id": "p009",
@@ -291,6 +291,6 @@ export const product = [
         "subCategory": "Bottomwear",
         "sizes": ["S", "M", "L"],
         "date": 171663434548,
-        "bestseller": false
+        "bestseller": true
     }
 ]
