@@ -25,15 +25,15 @@ const BestSeller = () => {
         </p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4 gap-y-6">
-        {bestSeller.map((item, index) => {
+        {bestSeller.map((item, index) => (
           <ProductItem
             key={index}
             id={item._id}
             image={item.image}
             name={item.name}
             price={item.price}
-          />;
-        })}
+          />
+        ))}
       </div>
     </div>
   );
