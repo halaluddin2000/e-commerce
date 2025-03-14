@@ -8,6 +8,11 @@ import loginIcon from './login icon.png'
 import manu_icon from './manu_icon.png'
 
 
+import exchange_policy from './exchange policy.png'
+import return_policy from './exchange policy.png'
+import supporte_customer from "./cuustomer support.png"
+
+
 import p_img1 from './p_img1.png'
 import p_img2_1 from './p_img2_1.png'
 import p_img2_2 from './p_img2_2.png'
@@ -75,6 +80,11 @@ export const assets = {
     about_img,
     contact_img,
     hero,
+
+    exchange_policy,
+    return_policy,
+    supporte_customer,
+
     p_img1,
     p_img2_1,
     p_img2_2,
