@@ -33,7 +33,7 @@ const Footer = () => {
 
       <div>
         <hr />
-        <p className="text-center">
+        <p className="text-center my-2">
           Copyright 2025@
           <a href="https://halaluddin.netlify.app/"> MD Halal Uddin </a>
           -All Right Reserver
